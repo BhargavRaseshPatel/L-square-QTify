@@ -7,7 +7,7 @@ const Hero = () => {
         <>
             <div className='hero-container'>
                 <div className='header-text'>
-                    <p className='text'>100 Thousand Songs,ad-free</p>
+                    <p className='text'>100 Thousand Songs, ad-free</p>
                     <p className='text-second'>Over thousand podcast episodes</p>
                 </div>
                 <div className="hero-image">

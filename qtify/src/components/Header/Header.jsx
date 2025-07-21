@@ -3,11 +3,13 @@ import './Header.css'
 import Button from './Button'
 import Logo from './Logo'
 
-const Header = () => {
+const NavBar = () => {
   return (
     <div className='header-content'>
 
-      <Logo />
+      <div>
+        <Logo />
+      </div>
 
       <div className='header-search'>
         <input type='text' className='text-search' placeholder='Search a album of your choice' />
@@ -21,4 +23,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default NavBar
