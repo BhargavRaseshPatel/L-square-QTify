@@ -1,0 +1,18 @@
+.navigation-button {
+    position: relative;
+    width: 100%;
+}
+
+.left-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0px;
+}
+
+.right-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0px;
+}
