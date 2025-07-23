@@ -6,13 +6,13 @@ import Search from './Search'
 
 const NavBar = () => {
   return (
-    <div className='header-content'>
+    <div className='header-content' data-testid="navbar">
 
       <Logo />
 
       <Search />
 
-      <div>
+      <div data-testid="button">
         <Button value={'Give Feedback'} />
       </div>
     </div>
