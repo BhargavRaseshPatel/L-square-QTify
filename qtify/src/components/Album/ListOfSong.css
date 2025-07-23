@@ -34,3 +34,7 @@
     flex-direction: row;
     align-items: center;
 }
+
+.swiper {
+    position: relative;
+}

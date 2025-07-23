@@ -2,6 +2,7 @@ import React from 'react'
 import LeftButton from './../../assets/LeftArrow.svg'
 import RightButton from './../../assets/RightArrow.svg'
 import { useSwiper } from 'swiper/react'
+import './NavigationButton.css'
 
 const NavigationButton = () => {
     const swiper = useSwiper()

@@ -63,7 +63,11 @@ const ListOfSong = ({ album, name }) => {
             <Box sx={{ width: '100%', typography: 'body1' }}>
                 <TabContext value={value}>
                     <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                        <TabList onChange={handleChange} aria-label="lab API tabs example">
+                        <TabList onChange={handleChange} aria-label="lab API tabs example" textColor='white' sx={{
+                            '& .MuiTabs-indicator': {
+                                backgroundColor: '#34C94B',
+                            },
+                        }}>
                             {allGenres.map((element, index) => (
                                 <Tab label={element.label} value={"" + index} />
                             ))}
@@ -92,7 +96,7 @@ const ListOfSong = ({ album, name }) => {
             {name === 'Songs' && tabContent()}
 
             {!showAllSongs ? (
-                <Swiper modules={[Navigation]} className="mySwiper">
+                <Swiper modules={[Navigation]} className="mySwiper swiper">
                     {swiperData?.map((element, gropIndex) => (
                         <SwiperSlide key={gropIndex}>
                             <div className='songs'>

@@ -6,6 +6,9 @@ import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import Album from './components/Album/Album'
 import NavBar from './components/Header/Header'
+import "@fontsource/poppins"; // Defaults to 400 weight
+import "@fontsource/poppins/300.css";
+import "@fontsource/poppins/700.css";
 
 function App() {
   const [count, setCount] = useState(0)

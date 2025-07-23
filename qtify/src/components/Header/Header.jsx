@@ -2,20 +2,16 @@ import React from 'react'
 import './Header.css'
 import Button from './Button'
 import Logo from './Logo'
+import Search from './Search'
 
 const NavBar = () => {
   return (
     <div className='header-content'>
 
-      <div>
-        <Logo />
-      </div>
+      <Logo />
 
-      <div className='header-search'>
-        <input type='text' className='text-search' placeholder='Search a album of your choice' />
-      </div>
+      <Search />
 
-      {/* <Button variant='contained' className='header-button'>Give Feedback</Button> */}
       <div>
         <Button value={'Give Feedback'} />
       </div>

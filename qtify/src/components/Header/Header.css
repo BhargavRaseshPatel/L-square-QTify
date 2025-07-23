@@ -7,13 +7,6 @@
     align-items: center;
 }
 
-.header-logo {
-    width: 67px;
-    height: 34px;
-    margin-top: 20px;
-    margin-left: 32px;
-}
-
 .header-button {
     border-radius: 12px;
     width: 170px;
@@ -54,35 +47,4 @@
 
 }
 
-.text-search {
-    /* Rectangle 2134 */
 
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 568px;
-    height: 48px;
-    left: 436px;
-    top: 13px;
-
-    background: #FFFFFF;
-    border: 1px solid #121212;
-    border-radius: 8px;
-
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.2px;
-
-    color: #121212;
-
-    padding: 16px;
-
-    display: flex;
-}
-
-input::placeholder {
-    color: #121212;
-}
