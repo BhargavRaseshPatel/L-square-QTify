@@ -14,15 +14,15 @@ const Album = () => {
 
     const fetchTheAlbum = async () => {
         try {
-            let response = await fetch('https://qtify-backend-labs.crio.do/albums/top')
+            let response = await fetch('https://qtify-backend.labs.crio.do/albums/top')
             let data = await response.json()
             setTopAlbum(data)
 
-            response = await fetch('https://qtify-backend-labs.crio.do/albums/new')
+            response = await fetch('https://qtify-backend.labs.crio.do/albums/new')
             data = await response.json()
             setNewAlbum(data)
 
-            response = await fetch('https://qtify-backend-labs.crio.do/songs')
+            response = await fetch('https://qtify-backend.labs.crio.do/songs')
             data = await response.json()
             setSong(data)
         } catch (error) {
