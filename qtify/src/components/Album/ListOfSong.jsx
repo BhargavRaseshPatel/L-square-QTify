@@ -41,7 +41,7 @@ const ListOfSong = ({ album, name }) => {
 
         songs.forEach((element, idx) => {
             swiperListSong.push(element)
-            if (swiperListSong.length === 7 || idx === songs.length - 1) {
+            if (swiperListSong.length === 6 || idx === songs.length - 1) {
                 groupedSongs.push(swiperListSong)
                 swiperListSong = []
             }
