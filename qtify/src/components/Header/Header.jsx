@@ -12,9 +12,9 @@ const NavBar = () => {
 
       <Search />
 
-      <div data-testid="button">
+      {/* <div data-testid="button">
         <Button value={'Give Feedback'} />
-      </div>
+      </div> */}
     </div>
   )
 }
